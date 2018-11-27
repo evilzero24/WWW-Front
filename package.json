@@ -1,0 +1,28 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "2017 www web",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "bootstrap": "^4.1.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-utf8-convert": "^0.0.7",
+    "jquery": "^3.3.1",
+    "uglify-save-license": "^0.4.1",
+    "vue": "^2.5.17",
+    "vue-lazyload": "^1.2.6",
+    "vue-w3c-valid": "0.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
