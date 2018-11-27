@@ -52,7 +52,7 @@ gulp.task('styles', function(){
 gulp.task('fonts', function(){
 
 	gulp.src([
-		paths.npm + '@fortawesome/fontawesome-free/webfonts/*.*',												// font awesome
+		paths.npm + '@fortawesome/fontawesome-free/webfonts/*.*',		// font awesome
 	])
 	.pipe(gulp.dest(web_path.fonts));
 });
