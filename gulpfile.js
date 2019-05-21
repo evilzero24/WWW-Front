@@ -57,4 +57,12 @@ gulp.task('fonts', function(){
 	.pipe(gulp.dest(web_path.fonts));
 });
 
-gulp.task('default',['scripts','sass','styles','fonts']);
+
+gulp.task('default',
+	gulp.parallel(
+			'scripts',
+			'sass',
+			'styles',
+			'fonts'
+		)
+);
